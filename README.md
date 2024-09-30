@@ -16,6 +16,8 @@ This analysis is objective and does not intend to reflect the political biases o
 ## Project Introduction
 Kamala Harris and Donald Trump run for the federal elections in 2024. The first candidate is a Democrat, while the second represents the Republican Party. This is a Google Ads analysis to review the performance on each candidate campaign. To analyze Google’s political ad spending, we can leverage the transparency data provided by Google. By examining the public datasets containing information on political ads, we can estimate the amount of money each party spent on Google ads and correlate this spending with their respective election outcomes. This analysis will provide valuable insights into the role of digital advertising in modern political campaigns.
 
+Data warehousing and modeling was performed on BigQuery. Looker Studio was used for data visualization.
+
 ## Research Questions
 The primary focus will be the relationship between investment and gross results.
 
