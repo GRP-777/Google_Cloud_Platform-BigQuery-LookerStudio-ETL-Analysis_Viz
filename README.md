@@ -81,7 +81,7 @@ Sum of the USD amount spent per candidate, this gives a total for each one.
 To assess campaign performance more accurately, calculate the average impressions per candidate. Summing total impressions alone may not provide a clear picture. By using the average, we can get a better approximation of a form of ROI.
 
 #### Aggregation view schema
-     fine-volt-436819-u5dm1.khdtgrouped2
+     fine-volt-436819-u5.dm1.khdtgrouped2
      
 #### Query: aggregating columns
         CREATE VIEW IF NOT EXISTS fine-volt-436819-u5.dm1.khdtgrouped2 AS
