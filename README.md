@@ -1,6 +1,9 @@
 
 # Google Ads USD Spending & ROI in 2024 Presidential Campaigns
 
+![image](https://github.com/user-attachments/assets/50d077d7-493c-4362-8de8-ee18e4faf9fb)
+
+
 ## Tech stack
 
 - BigQuery
@@ -26,6 +29,9 @@ The primary focus will be the relationship between investment and gross results.
 - The analysis will focus on ads starting from date_range_start.
 
 ## ETL in BigQuery
+
+![image](https://github.com/user-attachments/assets/00611fa1-ad14-49b5-876b-86be99c87e6c)
+
 ### Data Cleaning
 
 #### Advertiser Identification
@@ -86,11 +92,17 @@ To assess campaign performance more accurately, calculate the average impression
         FROM fine-volt-436819-u5.dm1.khdtclean2
         GROUP BY candidate;
 
-## Data Visualization in Looker Studio:
+## Data Visualization in Looker Studio
+
+![image](https://github.com/user-attachments/assets/9f421901-2d8b-427f-afe7-a9ec1a2ca749)
+
 - *Data Connection*: The BigQuery table is connected to Looker Studio. Google Cloud Platform offers an interconnected environment, so this connection was easily performed.
 - *Viz explanation*: Simple charts (e.g., bar charts, scorecards) are used to compare investment and performance, making the results easy to understand.
 
 ## Results
+
+![image](https://github.com/user-attachments/assets/c480f46e-ce24-478f-897c-62b17955d8e4)
+
     1. Spending on Kamala Harris is three times higher than on Donald Trump.
     2. Donald Trump has five times more impressions than Kamala Harris.
 
@@ -99,3 +111,8 @@ To assess campaign performance more accurately, calculate the average impression
 - *Advertiser Identification*: The analysis relies on keyword matching for advertiser identification, which may not capture all instances, even though a detailed ETL was done.
 - *Platform Limitations*: The analysis is limited to Google Ads and does not consider other platforms like social media, newspapers, and others.
 - *Time Period*: The analysis covers July 22, 2024 to September 30, 2024, and results may vary for different time periods.
+
+## Professional Contact:
+- LinkedIn: https://www.linkedin.com/in/german-robles-perez/
+- GitHub: https://github.com/GRP-777
+- Email: groblesperez0@gmail.com
