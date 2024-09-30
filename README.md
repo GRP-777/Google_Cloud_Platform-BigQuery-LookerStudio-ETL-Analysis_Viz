@@ -10,10 +10,10 @@
 
 
 ## Disclaimer
-This analysis is objective and does not intend to reflect the political biases of the data engineer analyst. The findings presented here are unbiased and can be interpreted to show positive aspects for either candidate depending on the perspective.
+This analysis is objective and does not intend to reflect the political biases of the data analyst. The findings presented here are unbiased and can be interpreted to show positive aspects for either candidate depending on the perspective.
 
 ## Project Introduction
-An explanation of the fundamental elements and procedures involved in the analysis. A diagram illustrating the technologies used, data flow, and expected outcomes would be beneficial.
+Kamala Harris and Donald Trump run for the federal elections in 2024. The first candidate is a Democrat, while the second represents the Republican Party. This is a Google Ads analysis to review the performance on each candidate campaign. To analyze Google’s political ad spending, we can leverage the transparency data provided by Google. By examining the public datasets containing information on political ads, we can estimate the amount of money each party spent on Google ads and correlate this spending with their respective election outcomes. This analysis will provide valuable insights into the role of digital advertising in modern political campaigns.
 
 ## Research Questions
 The primary focus will be the relationship between investment and gross results.
@@ -22,7 +22,9 @@ The primary focus will be the relationship between investment and gross results.
     2. What gross results (in terms of impressions) have they achieved based on this expenditure?
 
 ## Dataset Location and Availability
-- The primary dataset is located in bigquery-public-data.google_political_ads.creative_stats.
+The primary dataset is public and located in bigquery-public-data.google_political_ads.creative_stats.
+
+## Data Description
 - Key numerical columns include spend_range_max_usd and impressions.
 - The categorical column for candidate identification is advertiser_name.
 - The analysis will focus on ads starting from date_range_start.
