@@ -1,7 +1,7 @@
 
 # Google Ads USD Spending & ROI in 2024 Presidential Campaigns
 
-![Uploading USA_Federal_Political_Google_Ads_2024_page-0001.jpg…]()
+![USA_Federal_Political_Google_Ads_2024_page-0001](https://github.com/user-attachments/assets/6cc5a737-7ddf-483b-98a6-73d5c06f423f)
 
 ## Tech stack
 
