@@ -28,7 +28,7 @@ The primary dataset is public and located in bigquery-public-data.google_politic
 ## Data Description
 - Key numerical columns include spend_range_max_usd and impressions.
 - The categorical column for candidate identification is advertiser_name.
-- The analysis will focus on ads starting from date_range_start.
+- The analysis will take dates from the date_range_start column. This column represents the real-time when ads where published.
 
 ## ETL in BigQuery
 
@@ -40,13 +40,13 @@ The primary dataset is public and located in bigquery-public-data.google_politic
 Using DISTINCT and WHEN clauses, advertiser_name is identified to filter for Democratic and Republican candidates based on keywords and expressions.
 
 #### Amount spent
-While spend_range_max_usd is not the sole indicator of campaign spending, it provides the closest approximation of the total expenditures. Only the highest range is considered after a trim procedure.
+Although spend_range_max_usd isn't a perfect representation of campaign spending, it offers the best approximation of total expenditures. We only consider the highest range after trimming the STRING column and casting it to INT64.
 
 #### Date Filtering
 Ads from Januay 22, 2024, to September 30, 2024 are considered.
 
 #### Order by Expenditures
-ORDER BY function helps us to be able to see the max spendings on top to have a quick view of estimates.
+The ORDER BY function allows us to sort the data by maximum spending, making it easier to quickly identify the highest-spending advertisers.
 
 #### Cleaning view schema
      fine-volt-436819-u5.dm1.khdtclean2
@@ -79,7 +79,8 @@ ORDER BY function helps us to be able to see the max spendings on top to have a 
 
 ### Data Modeling
 #### SUM
-Sum of the USD amount spent per candidate, this gives a total for each one. 
+The sum of USD amounts spent per candidate provides a total expenditure for each individual.
+
 #### Average
 To assess campaign performance more accurately, calculate the average impressions per candidate. Summing total impressions alone may not provide a clear picture. By using the average, we can get a better approximation of a form of ROI.
 
@@ -99,7 +100,7 @@ To assess campaign performance more accurately, calculate the average impression
 ![image](https://github.com/user-attachments/assets/9f421901-2d8b-427f-afe7-a9ec1a2ca749)
 
 - *Data Connection*: The BigQuery table is connected to Looker Studio. Google Cloud Platform offers an interconnected environment, so this connection was easily performed.
-- *Viz explanation*: Simple charts (e.g., bar charts, scorecards) are used to compare investment and performance, making the results easy to understand.
+- *Viz explanation*: Simple charts (bar charts and scorecards) are used to compare investment and performance, making the results easy to understand.
 
 ## Results
 
