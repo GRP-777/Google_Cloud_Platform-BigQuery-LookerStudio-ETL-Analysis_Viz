@@ -10,7 +10,7 @@
 
 
 ## Disclaimer
-This analysis is objective and does not intend to reflect the political biases of the data analyst. The findings presented here are unbiased and can be interpreted to show positive aspects for either candidate depending on the perspective.
+This analysis is objective and does not intend to reflect the political biases of the data engineer analyst. The findings presented here are unbiased and can be interpreted to show positive aspects for either candidate depending on the perspective.
 
 ## Project Introduction
 An explanation of the fundamental elements and procedures involved in the analysis. A diagram illustrating the technologies used, data flow, and expected outcomes would be beneficial.
