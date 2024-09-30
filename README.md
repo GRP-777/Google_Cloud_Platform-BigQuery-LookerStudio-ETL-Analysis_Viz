@@ -102,8 +102,8 @@ To assess campaign performance more accurately, calculate the average impression
 
 ![image](https://github.com/user-attachments/assets/c480f46e-ce24-478f-897c-62b17955d8e4)
 
-    1. Spending on Kamala Harris is three times higher than on Donald Trump.
-    2. Donald Trump has five times more impressions than Kamala Harris.
+    1. Kamala Harris's campaign spent three times more than Donald Trump's.
+    2. Donald Trump's campaign generates five times more impressions than Kamala Harris's.
 
 
 ## Limitations of the Analysis:
