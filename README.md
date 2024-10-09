@@ -32,7 +32,7 @@ The primary dataset is public and located in bigquery-public-data.google_politic
 - The categorical column for candidate identification is advertiser_name.
 - The analysis will take dates from the date_range_start column. This column represents the real-time when ads where published.
 
-## ETL in BigQuery
+## EDA & ETL in BigQuery
 
 ![image](https://github.com/user-attachments/assets/00611fa1-ad14-49b5-876b-86be99c87e6c)
 
